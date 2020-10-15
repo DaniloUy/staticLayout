@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background-color: darkblue;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .row {
+    text-align: center;
+  }
+  
+  .column {
+    flex: auto;
+    max-width: 20%;
+  }
+  
+  nav {
+    background-color: darkblue;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    height: 50px; 
+    width: 60vw;  
+    } 
+  
+  nav ul li{
+    float: right; 
+    margin-right: 52px;
+    list-style-type: none; 
+  }
+   
+  #open {
+    border: 5px solid black;
+    background-color: red;
+    z-index: 1;
+  }
+  
+  .nav-link {
+    color: darkgrey;
+    text-decoration: none;
+    font-family: 'Acme';     sans-serif:
+  }  
+   
+  .nav-link:hover {
+    color: green;
+    font-weight: 900;
+    }
+   
+  .button {
+    border: none;
+    color: white;
+    background-color: orange;
+    padding: 15px 40px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width=5500px;
+  }
+  
+  .image{
+    height: 150px;
+    width: 250px;
+    background-size: cover;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    margin-left: 500px;
+    }
+  
+  #partyImage{
+  background-image: url('https://www.kastapp.co/assets/pages/home/laptop-table.png');
+  }
+   
+  .grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+  }
+     
+  .grid-item-1 {
+    grid-column: 1 / 6;
+    text-align: center;
+    background-color: white
+    }  
+    
+  .grid-item-2 {
+    padding: 10px;
+    font-size: 30px; 
+    text-align: center; 
+    background-color: white;
+  }
+    
+  .grid-item-3 {
+    grid-column: 1 / 6;
+    text-align: center;
+    background-color: white
+  }
+  
+  .grid-item-4 {
+    grid-column: 4 / 5;
+    text-align: center;
+    background-color: white
+  }
+  
+  
+     
+  
