@@ -1,7 +1,8 @@
-body {
+.page-1-top {
     margin: 0;
     background-color: darkblue;
     font-family: 'Raleway', sans-serif;
+    padding-bottom: 30px;
   }
   
   .row {
@@ -45,7 +46,7 @@ body {
     font-weight: 900;
     }
    
-  .button {
+  .button-1 {
     border: none;
     color: white;
     background-color: orange;
@@ -56,7 +57,7 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    width=5500px;
+    
   }
   
   .image{
@@ -69,7 +70,7 @@ body {
     margin-left: 500px;
     }
   
-  #partyImage{
+  #lunchOutImage{
   background-image: url('https://www.kastapp.co/assets/pages/home/laptop-table.png');
   }
    
@@ -105,6 +106,32 @@ body {
     background-color: white
   }
   
+  #kast-tv {
+    text-align: center;
+    background-color: lightskyblue; 
+  }
+
+  .main-container {
+    padding-top: 30px;
+  } 
+
+  .text-1 {
+    font-size: 180%;
+  }
+
+  .button-2 {
+    border: none;
+    color: white;
+    background-color: orange;
+    /* padding: 5px 40px; */ 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+  }
   
-     
   
