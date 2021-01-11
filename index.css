@@ -18,7 +18,7 @@
     background-color: darkblue;
     position: absolute;
     top: 20px;
-    left: 500px;
+    left: 480px;
     height: 50px; 
     width: 60vw;  
     } 
@@ -61,18 +61,18 @@
   }
   
   .image{
-    height: 150px;
-    width: 250px;
+    height: 340px;
+    width: 650px;
     background-size: cover;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 1px;
-    margin-left: 500px;
+    /* margin-bottom: 1px; */
+    margin-left: 290px;
     }
   
-  #lunchOutImage{
-  background-image: url('https://www.kastapp.co/assets/pages/home/laptop-table.png');
-  }
+  #laptopImage{
+    background-image: url('https://kastapp.co/images/laptop-large-p-1600.png');
+}
    
   .grid-container {
     display: grid;
